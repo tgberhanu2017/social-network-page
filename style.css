@@ -1,0 +1,425 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.container {
+  height: 350px;
+  width: 850px;
+  background-color: cornflowerblue;
+}
+.small-box {
+  height: 150px;
+  width: 150px;
+  background-color: cornflowerblue;
+  border: 1px solid black;
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 230px;
+}
+p {
+  font-size: 20px;
+}
+.name {
+  position: absolute;
+  color: white;
+  margin-left: 180px;
+  margin-top: 240px;
+}
+.nav ul {
+  display: flex;
+  grid-gap: 2em;
+  position: absolute;
+}
+.nav ul li {
+  list-style: none;
+  border-right: 1px solid black;
+  padding-right: 10px;
+}
+.more a::after {
+  font-family: "FontAwesome";
+  padding-left: 10px;
+  content: "\f0d7";
+}
+.more a {
+  text-decoration: none;
+  color: black;
+}
+.minutes a::after {
+  font-family: "FontAwesome";
+  padding-left: 10px;
+  content: "\f0ac";
+}
+.minutes a {
+  text-decoration: none;
+  color: black;
+}
+.nav {
+  margin-top: 340px;
+  margin-left: 200px;
+  position: absolute;
+}
+.nav :last-child {
+  border-right: 0px;
+}
+.nav :first-child {
+  border-right: 0px;
+}
+
+.time {
+  text-decoration: underline royalblue;
+}
+
+.message ul li {
+  list-style: none;
+  background-color: white;
+}
+.follow li {
+  display: inline-block;
+}
+.like {
+  color: black;
+  margin-top: 15px;
+}
+.like a {
+  background-color: white;
+  color: black;
+}
+.message-icon a::before {
+  font-family: "FontAwesome";
+  padding-right: 5px;
+  content: "\f27a";
+}
+.message-icon a {
+  text-decoration: none;
+  color: black;
+}
+
+.message {
+  display: flex;
+  margin-left: 550px;
+  float: left;
+  margin-top: 300px;
+}
+.like a::before {
+  font-family: "FontAwesome";
+  padding-right: 5px;
+  content: "\f164";
+}
+.like a {
+  text-decoration: none;
+  color: black;
+}
+
+/* columns */
+
+.left-column {
+  width: 328px;
+  height: 1500px;
+  position: absolute;
+  margin-top: 45px;
+}
+.right-column {
+  width: 512px;
+  height: 1000px;
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 338px;
+}
+hr {
+  margin-top: 25px;
+}
+p {
+  margin-left: 5px;
+}
+.lorem1 p {
+  color: rgb(0, 132, 255);
+  margin-left: 5px;
+  font-size: 15px;
+}
+.first-box {
+  border: 1px black solid;
+}
+
+.your-website a::before {
+  font-family: "FontAwesome";
+  padding-right: 5px;
+  content: "\f0ac";
+}
+.your-website a {
+  text-decoration: none;
+  color: black;
+}
+.your-website {
+  font-size: 17px;
+}
+.second-box {
+  border: 1px black solid;
+  margin-top: 10px;
+}
+.about a::after {
+  font-family: "FontAwesome";
+  padding-right: 5px;
+  content: "\f105";
+  float: right;
+}
+.about a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+.address a::before {
+  font-family: "FontAwesome";
+  padding-left: 5px;
+  content: "\f041";
+}
+.city {
+  font-size: 15px;
+}
+.address a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+.phone-number a::before {
+  font-family: "FontAwesome";
+  padding-right: 7px;
+  content: "\f095";
+}
+.phone-number a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+.welcome-box {
+  width: 100px;
+  height: 80px;
+  background-color: cornflowerblue;
+  margin-left: 5px;
+}
+.both {
+  display: flex;
+}
+.welcome {
+  margin-left: 10px;
+  margin-top: 30px;
+}
+.fwb-box {
+  width: 100px;
+  height: 80px;
+  background-color: cornflowerblue;
+  margin-left: 5px;
+}
+.fwb-both {
+  display: flex;
+}
+.fwb {
+  margin-left: 10px;
+  margin-top: 30px;
+}
+hr {
+  margin-top: 10px;
+}
+.livestream-box {
+  width: 100px;
+  height: 80px;
+  background-color: cornflowerblue;
+  margin-left: 5px;
+}
+.livestream-both {
+  display: flex;
+}
+.Livestream {
+  margin-left: 10px;
+  margin-top: 30px;
+}
+.apps {
+  border: 1px black solid;
+  margin-top: 10px;
+}
+.photo1 {
+  width: 100px;
+  height: 100px;
+  background-color: cornflowerblue;
+}
+.photo2 {
+  width: 100px;
+  height: 100px;
+  background-color: cornflowerblue;
+}
+
+.photo3 {
+  width: 100px;
+  height: 100px;
+  background-color: cornflowerblue;
+}
+.photo4 {
+  width: 100px;
+  height: 100px;
+  background-color: cornflowerblue;
+}
+.photo5 {
+  width: 100px;
+  height: 100px;
+  background-color: cornflowerblue;
+}
+.photo6 {
+  width: 100px;
+  height: 100px;
+  background-color: cornflowerblue;
+}
+.photo7 {
+  width: 100px;
+  height: 100px;
+  background-color: cornflowerblue;
+  margin-top: 5px;
+}
+.photo123 {
+  display: flex;
+  grid-gap: 0.25em;
+  margin-top: 10px;
+}
+.photo456 {
+  display: flex;
+  grid-gap: 0.25em;
+  margin-top: 5px;
+}
+.photos {
+  border: 1px black solid;
+  margin-top: 10px;
+}
+/* right-column*/
+
+.box-one {
+  width: 60px;
+  height: 60px;
+  background-color: cornflowerblue;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.top-one {
+  display: flex;
+  grid-gap: 1em;
+}
+.your-page-one p {
+  font-size: 15px;
+}
+.large-box1 {
+  width: 512px;
+  height: 190px;
+  background-color: cornflowerblue;
+}
+.comments {
+  font-size: 13px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.cover-photo1 {
+  border: 1px black solid;
+}
+.box-two {
+  width: 60px;
+  height: 60px;
+  background-color: cornflowerblue;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.your-page-two p {
+  font-size: 15px;
+}
+
+.top-two {
+  display: flex;
+  grid-gap: 1em;
+}
+.lorem p {
+  font-size: 15px;
+}
+.likes p {
+  font-size: 13px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.cover-photo2 {
+  border: 1px black solid;
+  margin-top: 10px;
+}
+.box-three {
+  width: 60px;
+  height: 60px;
+  background-color: cornflowerblue;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.your-page-three p {
+  font-size: 15px;
+}
+.top-three {
+  display: flex;
+  grid-gap: 1em;
+}
+.large-box2 {
+  width: 512px;
+  height: 190px;
+  background-color: cornflowerblue;
+}
+
+.join {
+  margin-left: 445px;
+  border: 1px solid black;
+  margin-right: 5px;
+}
+.join a {
+  text-decoration: none;
+  color: black;
+  padding-left: 5px;
+}
+.join a::before {
+  font-family: "FontAwesome";
+  padding-right: 7px;
+  content: "\f0ce";
+}
+.cover-photo3 {
+  border: 1px black solid;
+  margin-top: 10px;
+}
+.notifications p {
+  font-size: 13px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.event-name p {
+  font-size: 15px;
+  margin-left: 15px;
+}
+.box-four {
+  width: 60px;
+  height: 60px;
+  background-color: cornflowerblue;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.your-page-four p {
+  font-size: 15px;
+}
+.top-four {
+  display: flex;
+  grid-gap: 1em;
+}
+.lorem-two {
+  font-size: 15px;
+  margin-left: 10px;
+}
+.share p {
+  font-size: 13px;
+  margin-left: 10px;
+}
+.cover-photo4 {
+  border: 1px black solid;
+  margin-top: 10px;
+}
